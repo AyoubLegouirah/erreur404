@@ -17,7 +17,7 @@ body{
 .rectangle {
     width: 700px; 
     height: 500px;  
-    /* Ajoutez d'autres styles CSS au besoin */
+    
     box-shadow: 4px 4px 10px gray;
     background-image: url(https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80);
 }
@@ -82,14 +82,14 @@ body{
 }
 @keyframes rotateRightLeft {
     0%, {
-        transform: rotate(0deg); /* Position initiale (0 degrés) */
+        transform: rotate(0deg); 
     }
     50% {
-        transform: rotate(25deg); /* Rotation à droite (45 degrés) */
+        transform: rotate(25deg); 
     }
      
     100% {
-        transform: rotate(-25deg); /* Rotation à droite (45 degrés) */
+        transform: rotate(-25deg); 
     }
 }
 @media (max-width: 768px) {
